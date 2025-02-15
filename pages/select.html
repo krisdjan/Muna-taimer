@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg timer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<header>
+</header>
+<body>
+    <h2>Choose how you want your egg(s) cooked</h2>
+    <div>
+        <button onclick="myTimer(1)">
+            <h3>test</h3>
+            <p>1 min</p>
+        </button>
+        <button onclick="myTimer(6)">
+            <h3>Soft</h3>
+            <p>6 min</p>
+        </button>
+        <button onclick=myTimer(8)>
+            <h3>Medium</h3>
+            <p>8 min</p>
+        </button>
+        <button onclick=myTimer(10)>
+            <h3>Hard</h3>
+            <p>10 min</p>
+        </button>
+    </div>
+    <br>
+    <button onclick="location.href='../index.html'">Back</button>
+    <button onclick="window.location.reload()">Reset</button>
+    <div>
+        <p id="timerLocation"></p>
+    </div>
+ 
+</body>
+<script src="../script.js"></script>
+</html>
